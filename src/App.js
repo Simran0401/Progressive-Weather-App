@@ -24,7 +24,7 @@ function App() {
       <input
         type="text"
         className="search"
-        placeholder="Search..."
+        placeholder="Search for city..."
         value={query}
         onChange={(e) => setQuery(e.target.value)} // It retrieves value of whatever input it was called on.
         // In this case, it’s the input element so whatever we insert in our input (here --> query), can be
